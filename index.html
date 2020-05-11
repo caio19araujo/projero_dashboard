@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<title>TechBlog - Keyboards</title>
+	</head>
+	<body class="pt-5" onresize="verificaTamanho()">
+
+		<!-- MENU DE NAVEGAÇÃO SUPERIOR -->
+		<nav class="sb-topnav navbar fixed-top navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">TechBlog</a><button class="btn btn-link btn-sm order-1 order-lg-0" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><svg class="icone-hamburge" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> --></button><!-- Navbar Search-->
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button"><svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" width="16" height="16" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search"></i> --></button>
+                    </div>
+               	</div>
+            </form>
+            <!-- Navbar-->
+            <ul class="navbar-nav mr-2 ml-auto ml-md-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg class="svg-inline--fa fa-user fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fas fa-user fa-fw"></i> --></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="login.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!--FIM -->
+
+        <!-- MENU LATERAL PARA NAVEGAÇÃO -->
+        <div class="collapse menu-lateral" id="multiCollapseExample2">
+			
+			<div class="container-conteudo">
+				<div class="itens-do-menu">
+
+	        		<div class="caixa-titulo">
+	        			<span class="titulo-menu-lateral">Peripheral</span>
+	        		</div>
+
+	        		<div class="opcao-menu">
+	        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icone-menu-lateral" xml:space="preserve">
+						<g>
+							<g>
+								<g>
+									<path d="M469.333,85.333H42.667C19.146,85.333,0,104.469,0,128v256c0,23.531,19.146,42.667,42.667,42.667h426.667
+										C492.854,426.667,512,407.531,512,384V128C512,104.469,492.854,85.333,469.333,85.333z M490.667,384
+										c0,11.76-9.563,21.333-21.333,21.333H42.667c-11.771,0-21.333-9.573-21.333-21.333V128c0-11.76,9.563-21.333,21.333-21.333
+										h426.667c11.771,0,21.333,9.573,21.333,21.333V384z"/>
+									<path d="M106.667,138.667H64c-5.896,0-10.667,4.771-10.667,10.667V192c0,5.896,4.771,10.667,10.667,10.667h42.667
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C117.333,143.438,112.563,138.667,106.667,138.667z M96,181.333H74.667V160H96
+										V181.333z"/>
+									<path d="M149.333,202.667H192c5.896,0,10.667-4.771,10.667-10.667v-42.667c0-5.896-4.771-10.667-10.667-10.667h-42.667
+										c-5.896,0-10.667,4.771-10.667,10.667V192C138.667,197.896,143.438,202.667,149.333,202.667z M160,160h21.333v21.333H160V160z"/>
+									<path d="M234.667,202.667h42.667c5.896,0,10.667-4.771,10.667-10.667v-42.667c0-5.896-4.771-10.667-10.667-10.667h-42.667
+										c-5.896,0-10.667,4.771-10.667,10.667V192C224,197.896,228.771,202.667,234.667,202.667z M245.333,160h21.333v21.333h-21.333V160
+										z"/>
+									<path d="M362.667,138.667H320c-5.896,0-10.667,4.771-10.667,10.667V192c0,5.896,4.771,10.667,10.667,10.667h42.667
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C373.333,143.438,368.563,138.667,362.667,138.667z M352,181.333h-21.333V160H352
+										V181.333z"/>
+									<path d="M448,138.667h-42.667c-5.896,0-10.667,4.771-10.667,10.667V192c0,5.896,4.771,10.667,10.667,10.667H448
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C458.667,143.438,453.896,138.667,448,138.667z M437.333,181.333H416V160h21.333
+										V181.333z"/>
+									<path d="M106.667,309.333H64c-5.896,0-10.667,4.771-10.667,10.667v42.667c0,5.896,4.771,10.667,10.667,10.667h42.667
+										c5.896,0,10.667-4.771,10.667-10.667V320C117.333,314.104,112.563,309.333,106.667,309.333z M96,352H74.667v-21.333H96V352z"/>
+									<path d="M362.667,309.333H149.333c-5.896,0-10.667,4.771-10.667,10.667v42.667c0,5.896,4.771,10.667,10.667,10.667h213.333
+										c5.896,0,10.667-4.771,10.667-10.667V320C373.333,314.104,368.563,309.333,362.667,309.333z M352,352H160v-21.333h192V352z"/>
+									<path d="M448,309.333h-42.667c-5.896,0-10.667,4.771-10.667,10.667v42.667c0,5.896,4.771,10.667,10.667,10.667H448
+										c5.896,0,10.667-4.771,10.667-10.667V320C458.667,314.104,453.896,309.333,448,309.333z M437.333,352H416v-21.333h21.333V352z"/>
+									<path d="M106.667,224H64c-5.896,0-10.667,4.771-10.667,10.667v42.667C53.333,283.229,58.104,288,64,288h42.667
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C117.333,228.771,112.563,224,106.667,224z M96,266.667H74.667v-21.333H96V266.667z"
+										/>
+									<path d="M149.333,288H192c5.896,0,10.667-4.771,10.667-10.667v-42.667c0-5.896-4.771-10.667-10.667-10.667h-42.667
+										c-5.896,0-10.667,4.771-10.667,10.667v42.667C138.667,283.229,143.438,288,149.333,288z M160,245.333h21.333v21.333H160V245.333z
+										"/>
+									<path d="M234.667,288h42.667c5.896,0,10.667-4.771,10.667-10.667v-42.667c0-5.896-4.771-10.667-10.667-10.667h-42.667
+										c-5.896,0-10.667,4.771-10.667,10.667v42.667C224,283.229,228.771,288,234.667,288z M245.333,245.333h21.333v21.333h-21.333
+										V245.333z"/>
+									<path d="M362.667,224H320c-5.896,0-10.667,4.771-10.667,10.667v42.667c0,5.896,4.771,10.667,10.667,10.667h42.667
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C373.333,228.771,368.563,224,362.667,224z M352,266.667h-21.333v-21.333H352
+										V266.667z"/>
+									<path d="M448,224h-42.667c-5.896,0-10.667,4.771-10.667,10.667v42.667c0,5.896,4.771,10.667,10.667,10.667H448
+										c5.896,0,10.667-4.771,10.667-10.667v-42.667C458.667,228.771,453.896,224,448,224z M437.333,266.667H416v-21.333h21.333V266.667
+										z"/>
+								</g>
+							</g>
+						</g>
+						</svg>
+
+	        			<span class="secao"> Keybords </span>
+        			</div>
+
+        			<div class="caixa-titulo">
+	        			<span class="titulo-menu-lateral">Other Devices</span>
+	        		</div>
+
+	        		<div class="opcao-menu">
+	        			<svg id="Capa_1" class="icone-menu-lateral" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m421 166c0-3.978-1.581-7.793-4.394-10.606l-90-90c-2.813-2.813-6.628-4.394-10.606-4.394h-45v-46c0-8.284-6.716-15-15-15s-15 6.716-15 15v46h-45c-3.978 0-7.793 1.581-10.606 4.394l-90 90c-2.813 2.813-4.394 6.628-4.394 10.606v181c0 90.981 74.019 165 165 165s165-74.019 165-165c0-8.758 0-173.251 0-181zm-111.213-75 81.213 81.213v42.985l-47.979 15.993c-20.525 6.842-37.097 22.217-45.464 42.185-5.74 13.697-16.025 21.444-26.556 25.044v-60c17.459-6.192 30-22.865 30-42.42v-30c0-19.555-12.541-36.228-30-42.42v-32.58zm-53.787 60c8.271 0 15 6.729 15 15v30c0 8.271-6.729 15-15 15s-15-6.729-15-15v-30c0-8.271 6.729-15 15-15zm-53.787-60h38.787v32.58c-17.459 6.192-30 22.865-30 42.42v30c0 19.555 12.541 36.228 30 42.42v59.979c-10.512-3.609-20.769-11.353-26.498-25.023-8.368-19.967-24.939-35.343-45.464-42.185l-48.038-16.012v-42.965zm188.787 256c0 74.439-60.561 135-135 135s-135-60.561-135-135v-100.198l38.551 12.851c12.315 4.105 22.259 13.333 27.283 25.319 12.109 28.895 39.162 46.028 69.166 46.028 29.89 0 57.045-16.967 69.225-46.028 5.023-11.986 14.967-21.214 27.282-25.319l38.493-12.832z"/></svg>
+
+	        			<span class="secao"> Mouse </span>
+        			</div>
+
+        			<div class="opcao-menu">
+	        			<svg class="icone-menu-lateral" viewBox="0 0 457.14286 457.14286" xmlns="http://www.w3.org/2000/svg"><path d="m431.816406 0h-406.492187c-13.960938 0-25.324219 11.355469-25.324219 25.320312v306.75c0 13.910157 11.363281 25.234376 25.324219 25.234376h107.890625c7.453125 8.902343 18.070312 17.460937 28.585937 25.75 14.726563 11.605468 33.054688 26.050781 31.667969 35.464843-.441406 3-4.195312 11.042969-29.449219 20.972657-4.089843 1.605468-6.457031 5.890624-5.640625 10.214843.816406 4.3125 4.589844 7.4375 8.984375 7.4375h122.328125c4.394532 0 8.164063-3.125 8.984375-7.4375.816407-4.324219-1.550781-8.609375-5.640625-10.214843-25.253906-9.929688-29.007812-17.972657-29.445312-20.972657-1.390625-9.421875 16.972656-23.875 31.730468-35.492187 10.515626-8.273438 21.136719-16.824219 28.597657-25.722656h107.898437c13.964844 0 25.328125-11.324219 25.328125-25.234376v-306.75c0-13.964843-11.363281-25.320312-25.328125-25.320312zm-406.492187 18.285156h406.492187c3.882813 0 7.039063 3.152344 7.039063 7.035156v255.847657h-420.570313v-255.847657c0-3.882812 3.15625-7.035156 7.039063-7.035156zm258.683593 350.375c-20.375 16.035156-41.441406 32.625-38.511718 52.527344.945312 6.410156 4.199218 12.25 9.945312 17.667969h-53.828125c5.742188-5.417969 9-11.257813 9.945313-17.667969 2.933594-19.894531-18.097656-36.464844-38.441406-52.5-4.78125-3.769531-9.609376-7.59375-14.046876-11.382812h138.96875c-4.433593 3.78125-9.253906 7.597656-14.03125 11.355468zm147.808594-29.640625h-406.492187c-3.882813 0-7.039063-3.117187-7.039063-6.949219v-32.613281h420.570313v32.613281c0 3.832032-3.15625 6.949219-7.039063 6.949219zm0 0"/><path d="m259.621094 310.097656h-62.097656c-5.050782 0-9.144532 4.089844-9.144532 9.144532 0 5.050781 4.09375 9.140624 9.144532 9.140624h62.097656c5.046875 0 9.140625-4.089843 9.140625-9.140624 0-5.054688-4.09375-9.144532-9.140625-9.144532zm0 0"/><path d="m54.855469 103.867188c2.339843 0 4.679687-.894532 6.464843-2.679688l39.867188-39.867188c3.570312-3.570312 3.570312-9.355468 0-12.925781-3.570312-3.574219-9.355469-3.574219-12.929688 0l-39.863281 39.863281c-3.574219 3.574219-3.574219 9.359376 0 12.929688 1.785157 1.785156 4.125 2.679688 6.460938 2.679688zm0 0"/><path d="m59.503906 147.992188c1.785156 1.785156 4.125 2.675781 6.464844 2.675781s4.679688-.890625 6.464844-2.675781l75.558594-75.554688c3.570312-3.570312 3.570312-9.355469 0-12.929688-3.574219-3.570312-9.359376-3.570312-12.929688 0l-75.558594 75.554688c-3.570312 3.570312-3.570312 9.355469 0 12.929688zm0 0"/></svg>
+
+	        			<span class="secao"> Display </span>
+        			</div>
+
+        		</div>
+			</div>	
+  		</div>
+  		<!-- FIM -->
+  		
+        <div class="container-fluid">
+        	<!-- TITULO DA PAGINA -->
+        	<h1 class="mt-4">Keyboards</h1>
+
+        	<!-- RASTRO DAS PAGINAS QUE PASSEI(BREADCRUMB) -->
+        	<nav aria-label="breadcrumb mb-4">
+  				<ol class="breadcrumb">
+    				<li class="breadcrumb-item" aria-current="page">Home</li>
+    				<li class="breadcrumb-item active" aria-current="page">Keyboards</li>
+  				</ol>
+			</nav>
+			<!-- FIM -->
+
+			<!-- CARDS COM CONTEUDO -->
+			<div class="row text-white">
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card bg-primary">
+						<div class="card-header maior"><span class="card-title">Switch Blue</span></div>
+						<div class="card-body menor">
+							<a href="#" class="link-card">View Detail</a>
+							<div class="alinha-icone">
+								<svg class="seta" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+							</div>
+					  	</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card bg-dark">
+						<div class="card-header maior"><span class="card-title">Switch Black</span></div>
+						<div class="card-body menor">
+							<a href="#" class="link-card">View Detail</a>
+							<div class="alinha-icone">
+								<svg class="seta" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+							</div>
+
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-3 mb-4">
+					<div class="card bg-danger">
+						<div class="card-header maior"><span class="card-title">Switch Red</span></div>
+						<div class="card-body menor">
+							<a href="#" class="link-card">View Detail</a>
+							<div class="alinha-icone">
+								<svg class="seta" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+							</div>
+
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xl-3">
+					<div class="card bg-brown mb-4">
+						<div class="card-header maior"><span class="card-title">Switch Brown</span></div>
+						<div class="card-body menor">
+							<a href="#" class="link-card">View Detail</a>
+							<div class="alinha-icone">
+								<svg class="seta" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+							</div>
+
+					  </div>
+					</div>
+				</div>
+			</div>
+			<!-- FIM -->
+
+			<!-- CARDS COM OS VIDEOS -->
+			<div class="container-secao mb-4">
+				<h2 class="mt-4 mb-2">Switch Brands</h2>
+				<div class="row">
+					<div class="col-xl-6 mb-3">
+						<div class="card video">
+							<div class="card-header">Switch Cherry MX</div>
+							<div class="card-body">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/12L0QZFf2XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 mb-4">
+						<div class="card video">
+							<div class="card-header">Switch Outemu</div>
+							<div class="card-body">
+								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kmcz7qBVaQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIM -->
+
+			<!-- TABELA COM DADOS DE TECLADOS -->
+			<div class="card">
+				<div class="card-header">Popular Keyboard</div>
+				<div class="table-responsive">
+					<table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                                        <thead>
+                                            <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Name: activate to sort column descending" style="width: 55px;" aria-sort="ascending">Name</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 63px;">Switch Brand</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 48px;">Keys</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 30px;">Width</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 64px;">Standard</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 58px;">Price</th></tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Switch Brand</th><th rowspan="1" colspan="1">Keys</th><th rowspan="1" colspan="1">Width</th><th rowspan="1" colspan="1">Standard</th><th rowspan="1" colspan="1">Price</th></tr>
+                                        </tfoot>
+                                        <tbody>
+                                        <tr role="row" class="odd">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="even">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="odd">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="even">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="odd">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="even">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="odd">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="even">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="odd">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr><tr role="row" class="even">
+                                                <td class="sorting_1">Red Dragon Kumara</td>
+                                                <td>Outemu</td>
+                                                <td class="">ABS</td>
+                                                <td>TKl</td>
+                                                <td>ABNT2</td>
+                                                <td>R$216,90</td>
+                                            </tr></tbody>
+                                    </table>
+				</div>
+			</div>
+			<!-- FIM -->
+		</div>
+		
+		<!-- arquivos js necessarios para o bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
